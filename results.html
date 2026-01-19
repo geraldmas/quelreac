@@ -19,33 +19,47 @@
 
 <h1>Results</h1>
 
-<h2>Economic Axis: <span class="weight-300" id="economic-label"></span></h2>
+<h2>Femmes Axis: <span class="weight-300" id="femmes-label"></span></h2>
 <div class="axis">
-    <img id="img-equality" src="value_images/equality.svg" height="128pt"/>
-    <div class="bar equality" id="bar-equality"><div class="text-wrapper" id="equality"></div></div>
-    <div class="bar wealth" id="bar-wealth"><div class="text-wrapper" id="wealth"></div></div>
-    <img id="img-wealth" src="value_images/markets.svg" height="128pt"/>
+    <img id="img-antifeminisme" src="value_images/femmes.svg" height="128pt"/>
+    <div class="bar antifeminisme" id="bar-antifeminisme"><div class="text-wrapper" id="antifeminisme"></div></div>
+    <div class="bar misogyne" id="bar-misogyne"><div class="text-wrapper" id="misogyne"></div></div>
+    <img id="img-misogyne" src="value_images/femmes.svg" height="128pt"/>
 </div>
-<h2>Diplomatic Axis: <span class="weight-300" id="diplomatic-label"></span></h2>
+<h2>Handicaps Axis: <span class="weight-300" id="handicaps-label"></span></h2>
 <div class="axis">
-    <img id="img-might" src="value_images/nation.svg" height="128pt"/>
-    <div class="bar might" id="bar-might"><div class="text-wrapper" id="might"></div></div>
-    <div class="bar peace" id="bar-peace"><div class="text-wrapper" id="peace"></div></div>
-    <img id="img-peace" src="value_images/globe.svg" height="128pt"/>
+    <img id="img-transhumanisme" src="value_images/handicaps.svg" height="128pt"/>
+    <div class="bar transhumanisme" id="bar-transhumanisme"><div class="text-wrapper" id="transhumanisme"></div></div>
+    <div class="bar validisme" id="bar-validisme"><div class="text-wrapper" id="validisme"></div></div>
+    <img id="img-validisme" src="value_images/handicaps.svg" height="128pt"/>
 </div>
-<h2>Civil Axis: <span class="weight-300" id="state-label"></span></h2>
+<h2>LGBT Axis: <span class="weight-300" id="lgbt-label"></span></h2>
 <div class="axis">
-    <img id="img-liberty" src="value_images/liberty.svg" height="128pt"/>
-    <div class="bar liberty" id="bar-liberty"><div class="text-wrapper" id="liberty"></div></div>
-    <div class="bar authority" id="bar-authority"><div class="text-wrapper" id="authority"></div></div>
-    <img id="img-authority" src="value_images/authority.svg" height="128pt"/>
+    <img id="img-gay" src="value_images/lgbt.svg" height="128pt"/>
+    <div class="bar gay" id="bar-gay"><div class="text-wrapper" id="gay"></div></div>
+    <div class="bar homophobe" id="bar-homophobe"><div class="text-wrapper" id="homophobe"></div></div>
+    <img id="img-homophobe" src="value_images/lgbt.svg" height="128pt"/>
 </div>
-<h2>Societal Axis: <span class="weight-300" id="society-label"></span></h2>
+<h2>Racisés Axis: <span class="weight-300" id="racises-label"></span></h2>
 <div class="axis">
-    <img id="img-tradition" src="value_images/tradition.svg" height="128pt"/>
-    <div class="bar tradition" id="bar-tradition"><div class="text-wrapper" id="tradition"></div></div>
-    <div class="bar progress" id="bar-progress"><div class="text-wrapper" id="progress"></div></div>
-    <img id="img-progress" src="value_images/progress.svg" height="128pt"/>
+    <img id="img-antiarabe" src="value_images/racises.svg" height="128pt"/>
+    <div class="bar antiarabe" id="bar-antiarabe"><div class="text-wrapper" id="antiarabe"></div></div>
+    <div class="bar antinoirs" id="bar-antinoirs"><div class="text-wrapper" id="antinoirs"></div></div>
+    <img id="img-antinoirs" src="value_images/racises.svg" height="128pt"/>
+</div>
+<h2>Religions Axis: <span class="weight-300" id="religions-label"></span></h2>
+<div class="axis">
+    <img id="img-islamophobe" src="value_images/religions.svg" height="128pt"/>
+    <div class="bar islamophobe" id="bar-islamophobe"><div class="text-wrapper" id="islamophobe"></div></div>
+    <div class="bar antisemite" id="bar-antisemite"><div class="text-wrapper" id="antisemite"></div></div>
+    <img id="img-antisemite" src="value_images/religions.svg" height="128pt"/>
+</div>
+<h2>Société Axis: <span class="weight-300" id="societe-label"></span></h2>
+<div class="axis">
+    <img id="img-antiwokisme" src="value_images/societe.svg" height="128pt"/>
+    <div class="bar antiwokisme" id="bar-antiwokisme"><div class="text-wrapper" id="antiwokisme"></div></div>
+    <div class="bar fascisme" id="bar-fascisme"><div class="text-wrapper" id="fascisme"></div></div>
+    <img id="img-fascisme" src="value_images/societe.svg" height="128pt"/>
 </div>
 <h2>Closest Match: <span class="weight-300" id="ideology-label"></span></h2>
 <p>Ideological matching is a work in progress, and is much less accurate than the values and axes.</p>
@@ -91,10 +105,12 @@ stats"></a></div></noscript>
         }
     }
 
-    econArray = ["Communist","Socialist","Social","Centrist","Market","Capitalist","Laissez-Faire"]
-    diplArray = ["Cosmopolitan","Internationalist","Peaceful","Balanced","Patriotic","Nationalist","Chauvinist"]
-    govtArray = ["Anarchist","Libertarian","Liberal","Moderate","Statist","Authoritarian","Totalitarian"]
-    sctyArray = ["Revolutionary","Very Progressive","Progressive","Neutral","Traditional","Very Traditional","Reactionary"]
+    femmesArray = ["Antiféminisme","Très Antiféminisme","Antiféminisme","Neutre","Misogyne","Très Misogyne","Extrêmement Misogyne"]
+    handicapsArray = ["Transhumanisme","Très Transhumanisme","Transhumanisme","Neutre","Validiste","Très Validiste","Extrêmement Validiste"]
+    lgbtArray = ["Gay","Très Gay","Gay","Neutre","Homophobe","Très Homophobe","Extrêmement Homophobe"]
+    racisésArray = ["Antiarabe","Très Antiarabe","Antiarabe","Neutre","Antinoirs","Très Antinoirs","Extrêmement Antinoirs"]
+    religionsArray = ["Islamophobe","Très Islamophobe","Islamophobe","Neutre","Antisémite","Très Antisémite","Extrêmement Antisémite"]
+    societeArray = ["Antiwokisme","Très Antiwokisme","Antiwokisme","Neutre","Fasciste","Très Fasciste","Extrêmement Fasciste"]
 
     function setLabel(val,ary) {
         if (val > 100) { return "" } else
@@ -108,37 +124,49 @@ stats"></a></div></noscript>
         	{return ""}
     }
 
-    equality  = getQueryVariable("e")
-    peace     = getQueryVariable("d")
-    liberty   = getQueryVariable("g")
-    progress  = getQueryVariable("s")
-    wealth    = (100 - equality).toFixed(1)
-    might     = (100 - peace   ).toFixed(1)
-    authority = (100 - liberty ).toFixed(1)
-    tradition = (100 - progress).toFixed(1)
+    femmes  = parseFloat(getQueryVariable("f"))
+    handicaps  = parseFloat(getQueryVariable("h"))
+    lgbt    = parseFloat(getQueryVariable("l"))
+    racisés = parseFloat(getQueryVariable("r"))
+    religions   = parseFloat(getQueryVariable("re"))
+    societe   = parseFloat(getQueryVariable("s"))
+    antifeminisme = (100 - femmes).toFixed(1)
+    transhumanisme = (100 - handicaps).toFixed(1)
+    gay = (100 - lgbt).toFixed(1)
+    antiarabe = (100 - racisés).toFixed(1)
+    islamophobe = (100 - religions).toFixed(1)
+    antiwokisme = (100 - societe).toFixed(1)
 
-    setBarValue("equality", equality)
-    setBarValue("wealth", wealth)
-    setBarValue("peace", peace)
-    setBarValue("might", might)
-    setBarValue("liberty", liberty)
-    setBarValue("authority", authority)
-    setBarValue("progress", progress)
-    setBarValue("tradition", tradition)
+    setBarValue("antifeminisme", antifeminisme)
+    setBarValue("misogyne", femmes)
+    setBarValue("transhumanisme", transhumanisme)
+    setBarValue("validisme", handicaps)
+    setBarValue("gay", gay)
+    setBarValue("homophobe", lgbt)
+    setBarValue("antiarabe", antiarabe)
+    setBarValue("antinoirs", racisés)
+    setBarValue("islamophobe", islamophobe)
+    setBarValue("antisemite", religions)
+    setBarValue("antiwokisme", antiwokisme)
+    setBarValue("fascisme", societe)
 
-    document.getElementById("economic-label").innerHTML = setLabel(equality, econArray)
-    document.getElementById("diplomatic-label").innerHTML = setLabel(peace, diplArray)
-    document.getElementById("state-label").innerHTML = setLabel(liberty, govtArray)
-    document.getElementById("society-label").innerHTML = setLabel(progress, sctyArray)
+    document.getElementById("femmes-label").innerHTML = setLabel(femmes, femmesArray)
+    document.getElementById("handicaps-label").innerHTML = setLabel(handicaps, handicapsArray)
+    document.getElementById("lgbt-label").innerHTML = setLabel(lgbt, lgbtArray)
+    document.getElementById("racises-label").innerHTML = setLabel(racisés, racisésArray)
+    document.getElementById("religions-label").innerHTML = setLabel(religions, religionsArray)
+    document.getElementById("societe-label").innerHTML = setLabel(societe, societeArray)
 
     ideology = ""
     ideodist = Infinity
     for (var i = 0; i < ideologies.length; i++) {
         dist = 0
-        dist += Math.pow(Math.abs(ideologies[i].stats.econ - equality), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.govt - liberty), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.dipl - peace), 1.73856063)
-        dist += Math.pow(Math.abs(ideologies[i].stats.scty - progress), 1.73856063)
+        dist += Math.pow(Math.abs(ideologies[i].stats.femmes - femmes), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.racises - racisés), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.handicaps - handicaps), 1.73856063)
+        dist += Math.pow(Math.abs(ideologies[i].stats.lgbt - lgbt), 1.73856063)
+        dist += Math.pow(Math.abs(ideologies[i].stats.religions - religions), 1.73856063)
+        dist += Math.pow(Math.abs(ideologies[i].stats.societe - societe), 1.73856063)
         if (dist < ideodist) {
             ideology = ideologies[i].name
             ideodist = dist
@@ -158,48 +186,32 @@ stats"></a></div></noscript>
         var c = document.createElement("canvas")
         var ctx = c.getContext("2d")
         c.width = 800;
-        c.height = 650;
+        c.height = 900;
         ctx.fillStyle = "#EEEEEE"
-        ctx.fillRect(0,0,800,650);
+        ctx.fillRect(0,0,800,900);
 
-        img = document.getElementById("img-equality")
-        ctx.drawImage(img, 20, 170, 100, 100);
-        img = document.getElementById("img-wealth")
-        ctx.drawImage(img, 680, 170, 100, 100)
-        img = document.getElementById("img-might")
-        ctx.drawImage(img, 20, 290, 100, 100)
-        img = document.getElementById("img-peace")
-        ctx.drawImage(img, 680, 290, 100, 100)
-        img = document.getElementById("img-liberty")
-        ctx.drawImage(img, 20, 410, 100, 100)
-        img = document.getElementById("img-authority")
-        ctx.drawImage(img, 680, 410, 100, 100)
-        img = document.getElementById("img-tradition")
-        ctx.drawImage(img, 20, 530, 100, 100)
-        img = document.getElementById("img-progress")
-        ctx.drawImage(img, 680, 530, 100, 100)
+        var yPositions = [170, 250, 330, 410, 490, 570];
+        var leftImgIds = ["antifeminisme", "transhumanisme", "gay", "antiarabe", "islamophobe", "antiwokisme"];
+        var rightImgIds = ["misogyne", "validisme", "homophobe", "antinoirs", "antisemite", "fascisme"];
+        var axisValues = [femmes, handicaps, lgbt, racisés, religions, societe];
+        var antiAxisValues = [antifeminisme, transhumanisme, gay, antiarabe, islamophobe, antiwokisme];
+        var axisLabels = ["Femmes", "Handicaps", "LGBT", "Racisés", "Religions", "Société"];
 
-        ctx.fillStyle="#222222"
-        ctx.fillRect(120, 180, 560, 80)
-        ctx.fillRect(120, 300, 560, 80)
-        ctx.fillRect(120, 420, 560, 80)
-        ctx.fillRect(120, 540, 560, 80)
-        ctx.fillStyle="#f44336"
-        ctx.fillRect(120, 184, 5.6*equality-2, 72)
-        ctx.fillStyle="#00897b"
-        ctx.fillRect(682-5.6*wealth, 184, 5.6*wealth-2, 72)
-        ctx.fillStyle="#ff9800"
-        ctx.fillRect(120, 304, 5.6*might-2, 72)
-        ctx.fillStyle="#03a9f4"
-        ctx.fillRect(682-5.6*peace, 304, 5.6*peace-2, 72)
-        ctx.fillStyle="#ffeb3b"
-        ctx.fillRect(120, 424, 5.6*liberty-2, 72)
-        ctx.fillStyle="#3f51b5"
-        ctx.fillRect(682-5.6*authority, 424, 5.6*authority-2, 72)
-        ctx.fillStyle="#8bc34a"
-        ctx.fillRect(120, 544, 5.6*tradition-2, 72)
-        ctx.fillStyle="#9c27b0"
-        ctx.fillRect(682-5.6*progress, 544, 5.6*progress-2, 72)
+        for (var i = 0; i < 6; i++) {
+            var yPos = yPositions[i];
+            img = document.getElementById("img-" + leftImgIds[i])
+            if (img) ctx.drawImage(img, 20, yPos, 100, 80);
+            img = document.getElementById("img-" + rightImgIds[i])
+            if (img) ctx.drawImage(img, 680, yPos, 100, 80)
+
+            ctx.fillStyle="#222222"
+            ctx.fillRect(120, yPos + 10, 560, 60)
+            ctx.fillStyle="#f44336"
+            ctx.fillRect(120, yPos + 14, 5.6*antiAxisValues[i]-2, 52)
+            ctx.fillStyle="#00897b"
+            ctx.fillRect(682-5.6*axisValues[i], yPos + 14, 5.6*axisValues[i]-2, 52)
+        }
+
         ctx.fillStyle="#222222"
         ctx.font="700 80px Montserrat"
         ctx.textAlign="left"
@@ -208,24 +220,30 @@ stats"></a></div></noscript>
         ctx.fillText(ideology, 20, 140)
 
         ctx.textAlign="left"
-        if (equality  > 30) {ctx.fillText(equality + "%", 130, 237.5)}
-        if (might     > 30) {ctx.fillText(might + "%", 130, 357.5)}
-        if (liberty   > 30) {ctx.fillText(liberty + "%", 130, 477.5)}
-        if (tradition > 30) {ctx.fillText(tradition + "%", 130, 597.5)}
+        for (var i = 0; i < 6; i++) {
+            if (antiAxisValues[i] > 30) {
+                ctx.fillText(antiAxisValues[i] + "%", 130, yPositions[i] + 47.5)
+            }
+        }
         ctx.textAlign="right"
-        if (wealth    > 30) {ctx.fillText(wealth + "%", 670, 237.5)}
-        if (peace     > 30) {ctx.fillText(peace + "%", 670, 357.5)}
-        if (authority > 30) {ctx.fillText(authority + "%", 670, 477.5)}
-        if (progress  > 30) {ctx.fillText(progress + "%", 670, 597.5)}
+        for (var i = 0; i < 6; i++) {
+            if (axisValues[i] > 30) {
+                ctx.fillText(axisValues[i] + "%", 670, yPositions[i] + 47.5)
+            }
+        }
 
         ctx.font="300 30px Montserrat"
         ctx.fillText("8values.github.io", 780, 60)
 		ctx.fillText(version, 780, 90)
         ctx.textAlign="center"
-        ctx.fillText("Economic Axis: " + document.getElementById("economic-label").innerHTML, 400, 175)
-        ctx.fillText("Diplomatic Axis: " + document.getElementById("diplomatic-label").innerHTML, 400, 295)
-        ctx.fillText("Civil Axis: " + document.getElementById("state-label").innerHTML, 400, 415)
-        ctx.fillText("Societal Axis: " + document.getElementById("society-label").innerHTML, 400, 535)
+        ctx.font="300 20px Montserrat"
+        var labelIds = ["femmes", "handicaps", "lgbt", "racises", "religions", "societe"];
+        for (var i = 0; i < 6; i++) {
+            var labelEl = document.getElementById(labelIds[i] + "-label")
+            if (labelEl) {
+                ctx.fillText(axisLabels[i] + " Axis: " + labelEl.innerHTML, 400, yPositions[i] + 5)
+            }
+        }
 
         document.getElementById("banner").src = c.toDataURL();
     }

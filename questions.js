@@ -1,632 +1,684 @@
 questions = [
     {
-        "question": "Oppression by corporations is more of a concern than oppression by governments.",
+        "question": "Je condamne la phrase \"c\'est même pas beau ce genre de final, à aucun moment c\'est normal de faire le dawa comme ça\" prononcée par Claire parlant des Sénégalais. ",
         "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": -5,
-            "scty": 0
+            "femmes": -5,
+            "handicaps": 0,
+            "racises": 20,
+            "lgbt": 0,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
-        "question": "It is necessary for the government to intervene in the economy to protect consumers.",
+        "question": "Je condamne la phrase \"heureusement que le Maroc a pas gagné sinon les voitures auraient brûlé sur les champs Élysée et il y aurait la charia dans les rues\" prononcée mot pour mot par Doum. ",
         "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "femmes": 10,
+            "handicaps": 0,
+            "racises": -20,
+            "lgbt": 0,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
-        "question": "The freer the markets, the freer the people.",
+        "question": "Je ne peux pas être raciste si ma femme a un oeil au beurre noir. ",
         "effect": {
-            "econ": -10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "femmes": 50,
+            "handicaps": 0,
+            "racises": 20,
+            "lgbt": 0,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
-        "question": "It is better to maintain a balanced budget than to ensure welfare for all citizens.",
+        "question": "Les pédales c'est comme les noirs : un ça va, plus ça fait beaucoup. ",
         "effect": {
-            "econ": -10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "femmes": 0,
+            "handicaps": 0,
+            "racises": 40,
+            "lgbt": 60,
+            "religions": 0,
+            "societe": -20
         }
     },
     {
-        "question": "Publicly-funded research is more beneficial to the people than leaving it to the market.",
+        "question": "Les lave-vaisselles volent le travail de nos bonnes femmes. ",
         "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
+            "femmes": 50,
+            "handicaps": 0,
+            "racises": 0,
+            "lgbt": 0,
+            "religions": 0,
+            "societe": 20
         }
     },
     {
-        "question": "Tariffs on international trade are important to encourage local production.",
+        "question": "Il faut interdire les festivals de musique transgenre. ",
         "effect": {
-            "econ": 5,
-            "dipl": 0,
-            "govt": -10,
-            "scty": 0
+            "femmes": 0,
+            "handicaps": -20,
+            "racises": 0,
+            "lgbt": 50,
+            "religions": 0,
+            "societe": -40
         }
     },
     {
-        "question": "From each according to his ability, to each according to his needs.",
+        "question": "Jordan Bardella a un bon boule. ",
         "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "femmes": 0,
+            "handicaps": 10,
+            "racises": 10,
+            "lgbt": -50,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
-        "question": "It would be best if social programs were abolished in favor of private charity.",
+        "question": "Un grand remplacement est en cours et est orchestré par les juifs pour affaiblir le peuple Français historique en le remplaçant par des arabes. ",
         "effect": {
-            "econ": -10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "femmes": -20,
+            "handicaps": -15,
+            "racises": -20,
+            "lgbt": 10,
+            "religions": 20,
+            "societe": 5
         }
     },
     {
-        "question": "Taxes should be increased on the rich to provide for the poor.",
+        "question": "Il est légitime de censurer des messages qui ne me plaisent pas sur Discord. ",
         "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "femmes": 0,
+            "handicaps": 0,
+            "racises": 0,
+            "lgbt": -100,
+            "religions": 0,
+            "societe": 100
         }
     },
     {
-        "question": "Inheritance is a legitimate form of wealth.",
+        "question": "Au moins, les asiatiques sont discrets. ",
         "effect": {
-            "econ": -10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": -5
+            "femmes": 0,
+            "handicaps": 0,
+            "racises": 20,
+            "lgbt": 0,
+            "religions": 0,
+            "societe": 20
         }
     },
     {
-        "question": "Basic utilities like roads and electricity should be publicly owned.",
+        "question": "Les personnes noires ont un plus gros nez que les personnes juives",
         "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "femmes": 0,
+            "handicaps": 0,
+            "racises": 20,
+            "lgbt": 0,
+            "religions": -20,
+            "societe": 0
         }
     },
     {
-        "question": "Government intervention is a threat to the economy.",
+        "question": "Les gens sont trop bêtes pour voter correctement, surtout les femmes. ",
         "effect": {
-            "econ": -10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "femmes": 20,
+            "handicaps": 0,
+            "racises": 0,
+            "lgbt": 0,
+            "religions": 0,
+            "societe": 30
         }
     },
     {
-        "question": "Those with a greater ability to pay should receive better healthcare.",
+        "question": "On ne naît pas femme, il faut apprendre à accomplir les tâches ménagères avant. ",
         "effect": {
-            "econ": -10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "femmes": 20,
+            "handicaps": 0,
+            "racises": 0,
+            "lgbt": 0,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
-        "question": "Quality education is a right of all people.",
+        "question": "Dans l'islam, les buches de Noël sont interdites et l'Algérie veut conquérir la France pour interdire ces succulants desserts. ",
         "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 5
+            "femmes": 0,
+            "handicaps": 0,
+            "racises": -20,
+            "lgbt": 0,
+            "religions": -20,
+            "societe": 0
         }
     },
     {
-        "question": "The means of production should belong to the workers who use them.",
+        "question": "Les femmes préfèrent les hommes noirs aux hommes asiatiques en raison de la taille de leur pénis. ",
         "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
+            "femmes": -20,
+            "handicaps": 0,
+            "racises": 10,
+            "lgbt": 5,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
-        "question": "The United Nations should be abolished.",
+        "question": "J'ai rien contre les gays, mais je préfèrent qu'ils ne fassent pas ce qu'ils font devant moi. ",
         "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -5,
-            "scty": 0
+            "femmes": 0,
+            "handicaps": 0,
+            "racises": 0,
+            "lgbt": 20,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
-        "question": "Military action by our nation is often necessary to protect it.",
+        "question": "Les personnes handicappées ne doivent pas être employées dans les entreprises, elles sont trop couteuses. ",
         "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -10,
-            "scty": 0
+            "femmes": 0,
+            "handicaps": 20,
+            "racises": 0,
+            "lgbt": 0,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
-        "question": "I support regional unions, such as the European Union.",
+        "question": "Je range mon téléphone immédiatement lorsque je vois une personne portant un keffieh. ",
         "effect": {
-            "econ": -5,
-            "dipl": 10,
-            "govt": 10,
-            "scty": 5
+            "femmes": 0,
+            "handicaps": 0,
+            "racises": -20,
+            "lgbt": 0,
+            "religions": -10,
+            "societe": 0
         }
     },
     {
-        "question": "It is important to maintain our national sovereignty.",
+        "question": "Je préfère Cyril Hanouna à Pascal Praud. ",
         "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -5,
-            "scty": 0
+            "femmes": 10,
+            "handicaps": -10,
+            "racises": 0,
+            "lgbt": 0,
+            "religions": 0,
+            "societe": -20
         }
     },
     {
-        "question": "A united world government would be beneficial to mankind.",
+        "question": "Être contre une immigration venant principalement d'Afrique subsaharienne n'a rien à voir avec de la xénophobie. ",
         "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 0,
-            "scty": 0
+            "femmes": 0,
+            "handicaps": 0,
+            "racises": 20,
+            "lgbt": 0,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
-        "question": "It is more important to retain peaceful relations than to further our strength.",
+        "question": "Les femmes n'ont pas les mêmes facultés que les hommes, y compris au lit. ",
         "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 0,
-            "scty": 0
+            "femmes": 20,
+            "handicaps": 0,
+            "racises": 0,
+            "lgbt": -20,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
-        "question": "Wars do not need to be justified to other countries.",
+        "question": "Il y a trop de places handicapé, c'est trop difficile de se garer en ville (principalement à cause de l'immigration).",
         "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -10,
-            "scty": 0
+            "femmes": 0,
+            "handicaps": 20,
+            "racises": 0,
+            "lgbt": 0,
+            "religions": 0,
+            "societe": 10
         }
     },
     {
-        "question": "Military spending is a waste of money.",
+        "question": "Philippe Pétain a sauvé les juifs de France. ",
         "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 10,
-            "scty": 0
+            "femmes": 0,
+            "handicaps": 0,
+            "racises": 0,
+            "lgbt": 0,
+            "religions": 20,
+            "societe": 20
         }
     },
     {
-        "question": "International aid is a waste of money.",
+        "question": "Elon Musk est notre seule chance de sauver ce monde. ",
         "effect": {
-            "econ": -5,
-            "dipl": -10,
-            "govt": 0,
-            "scty": 0
+            "femmes": 0,
+            "handicaps": -30,
+            "racises": 0,
+            "lgbt": 10,
+            "religions": -10,
+            "societe": 20
         }
     },
     {
-        "question": "My nation is great.",
+        "question": "Sans la colonisation, l'Afrique serait restée à l'âge de pierre. ",
         "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": 0,
-            "scty": 0
+            "femmes": 0,
+            "handicaps": 0,
+            "racises": 10,
+            "lgbt": 0,
+            "religions": 0,
+            "societe": 10
         }
     },
     {
-        "question": "Research should be conducted on an international scale.",
+        "question": "Quand Jean-Loup tire de la fierté de ne taper que les femmes et les homosexuels, il fait preuve d'une grande lucidité. ",
         "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 0,
-            "scty": 10
+            "femmes": -30,
+            "handicaps": 0,
+            "racises": 0,
+            "lgbt": 30,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
-        "question": "Governments should be accountable to the international community.",
+        "question": "Israël a le droit de se défendre. ",
         "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 5,
-            "scty": 0
+            "femmes": 0,
+            "handicaps": 0,
+            "racises": 0,
+            "lgbt": 0,
+            "religions": -20,
+            "societe": 0
         }
     },
     {
-        "question": "Even when protesting an authoritarian government, violence is not acceptable.",
+        "question": "Il faut investir dans les cryptomonnaies avant que la charia ne soit instaurée en France. ",
         "effect": {
-            "econ": 0,
-            "dipl": 5,
-            "govt": -5,
-            "scty": 0
+            "femmes": 0,
+            "handicaps": -30,
+            "racises": 0,
+            "lgbt": 0,
+            "religions": -10,
+            "societe": 10
         }
     },
     {
-        "question": "My religious values should be spread as much as possible.",
+        "question": "Elon Musk n'a fait qu'un salut romain et a été injustement accusé de nazisme pour ce salut nazi romain. ",
         "effect": {
-            "econ": 0,
-            "dipl": -5,
-            "govt": -10,
-            "scty": -10
+            "femmes": 0,
+            "handicaps": -10,
+            "racises": 0,
+            "lgbt": 0,
+            "religions": 10,
+            "societe": 20
         }
     },
     {
-        "question": "Our nation's values should be spread as much as possible.",
+        "question": "Le féminisme est la cause des maux modernes. ",
         "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -5,
-            "scty": 0
+            "femmes": -20,
+            "handicaps": 0,
+            "racises": 0,
+            "lgbt": 0,
+            "religions": 0,
+            "societe": 10
         }
     },
     {
-        "question": "It is very important to maintain law and order.",
+        "question": "Je ne peux pas être transphobe puisqu'il n'existe que deux sexes. ",
         "effect": {
-            "econ": 0,
-            "dipl": -5,
-            "govt": -10,
-            "scty": -5
+            "femmes": -10,
+            "handicaps": 10,
+            "racises": 0,
+            "lgbt": 20,
+            "religions": 0,
+            "societe": -10
         }
     },
     {
-        "question": "The general populace makes poor decisions.",
+        "question": "Je ne peux pas être raciste puisque j'ai une amie plus noire qu'une sénégalaise. ",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": 0
+            "femmes": 0,
+            "handicaps": 0,
+            "racises": 10,
+            "lgbt": 0,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
-        "question": "Physician-assisted suicide should be legal.",
+        "question": "Je ne peux pas être homophobe puisque je suis propriétaire d'un vélo à deux pédales. ",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 0
+            "femmes": 0,
+            "handicaps": 0,
+            "racises": 0,
+            "lgbt": 10,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
-        "question": "The sacrifice of some civil liberties is necessary to protect us from acts of terrorism.",
+        "question": "Je préfère la conduite automatique à la conduite manuelle. Une pédale de moins, c'est toujours ça de pris. ",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": 0
+            "femmes": 0,
+            "handicaps": 0,
+            "racises": 0,
+            "lgbt": 10,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
-        "question": "Government surveillance is necessary in the modern world.",
+        "question": "Grâce à leurs grandes jambes, les noirs seraient meilleurs en vol que les arabes s'ils y avaient réfléchi. ",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": 0
+            "femmes": 0,
+            "handicaps": 10,
+            "racises": 10,
+            "lgbt": 0,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
-        "question": "The very existence of the state is a threat to our liberty.",
+        "question": "Je n'ai rien à faire sur ce quiz car je ne suis pas raciste (j'aime le couscous). ",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 0
+            "femmes": 0,
+            "handicaps": 0,
+            "racises": -10,
+            "lgbt": 0,
+            "religions": 0,
+            "societe": 10
         }
     },
     {
-        "question": "Regardless of political opinions, it is important to side with your country.",
+        "question": "On ne peut plus rien dire. ",
         "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -10,
-            "scty": -5
+            "femmes": 0,
+            "handicaps": 0,
+            "racises": 0,
+            "lgbt": 0,
+            "religions": 0,
+            "societe": 20
         }
     },
     {
-        "question": "All authority should be questioned.",
+        "question": "Je ne suis pas raciste, mais je préfère les personnes noires aux personnes arabes. ",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 5
+            "femmes": 0,
+            "handicaps": 0,
+            "racises": -10,
+            "lgbt": 0,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
-        "question": "A hierarchical state is best.",
+        "question": "Je peux identifier une personne juive à la taille de son nez. ",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": 0
+            "femmes": 0,
+            "handicaps": 0,
+            "racises": 0,
+            "lgbt": 0,
+            "religions": 10,
+            "societe": 0
         }
     },
     {
-        "question": "It is important that the government follows the majority opinion, even if it is wrong.",
+        "question": "Je peux identifier une personne juive à son poste dans la médecine ou la finance. ",
         "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 0
+            "femmes": 0,
+            "handicaps": 0,
+            "racises": 0,
+            "lgbt": 0,
+            "religions": -10,
+            "societe": 0
         }
     },
-    {
-        "question": "The stronger the leadership, the better.",
-        "effect": {
-            "econ": 0,
-            "dipl": -10,
-            "govt": -10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Democracy is more than a decision-making process.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Environmental regulations are essential.",
-        "effect": {
-            "econ": 5,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "A better world will come from automation, science, and technology.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "Children should be educated in religious or traditional values.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -5,
-            "scty": -10
-        }
-    },
-    {
-        "question": "Traditions are of no value on their own.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "Religion should play a role in government.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": -10
-        }
-    },
-    {
-        "question": "Churches should be taxed the same way other institutions are taxed.",
-        "effect": {
-            "econ": 5,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "Climate change is currently one of the greatest threats to our way of life.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "It is important that we work as a united world to combat climate change.",
-        "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "Society was better many years ago than it is now.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": -10
-        }
-    },
-    {
-        "question": "It is important that we maintain the traditions of our past.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": -10
-        }
-    },
-    {
-        "question": "It is important that we think in the long term, beyond our lifespans.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "Reason is more important than maintaining our culture.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "Drug use should be legalized or decriminalized.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 2
-        }
-    },
-    {
-        "question": "Same-sex marriage should be legal.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 10,
-            "scty": 10
-        }
-    },
-    {
-        "question": "No cultures are superior to others.",
-        "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 5,
-            "scty": 10
-        }
-    },
-    {
-        "question": "Sex outside marriage is immoral.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -5,
-            "scty": -10
-        }
-    },
-    {
-        "question": "If we accept migrants at all, it is important that they assimilate into our culture.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -5,
-            "scty": -10
-        }
-    },
-    {
-        "question": "Abortion should be prohibited in most or all cases.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": -10
-        }
-    },
-    {
-        "question": "Gun ownership should be prohibited for those without a valid reason.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "I support single-payer, universal healthcare.",
-        "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Prostitution should be illegal.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": -10
-        }
-    },
-    {
-        "question": "Maintaining family values is essential.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": -10
-        }
-    },
-    {
-        "question": "To chase progress at all costs is dangerous.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": -10
-        }
-    },
-    {
-        "question": "Genetic modification is a force for good, even on humans.",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 10
-        }
-    },
-    {
-        "question": "We should open our borders to immigration.",
-        "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 10,
-            "scty": 0
-        }
-    },
-    {
-        "question": "Governments should be as concerned about foreigners as they are about their own citizens.",
-        "effect": {
-            "econ": 0,
-            "dipl": 10,
-            "govt": 0,
-            "scty": 0
-        }
-    },
-    {
-        "question": "All people - regardless of factors like culture or sexuality - should be treated equally.",
-        "effect": {
-            "econ": 10,
-            "dipl": 10,
-            "govt": 10,
-            "scty": 10
-        }
-    },
-    {
-        "question": "It is important that we further my group's goals above all others.",
-        "effect": {
-            "econ": -10,
-            "dipl": -10,
-            "govt": -10,
-            "scty": -10
-        }
+{
+    "question": "Les femmes en font trop avec leurs règles. ",
+    "effect": {
+        "femmes": -10,
+        "handicaps": 0,
+        "racises": 0,
+        "lgbt": 0,
+        "religions": 0,
+        "societe": 0
     }
+},
+{
+    "question": "Il n'y a pas de lesbiennes, seulement des femmes qui n'ont pas trouvé d'hommes pour les mettre sur le droit chemin. ",
+    "effect": {
+        "femmes": 10,
+        "handicaps": 0,
+        "racises": 0,
+        "lgbt": 10,
+        "religions": 0,
+        "societe": 0
+    }
+},
+{
+    "question": "Un homme qui porte du rose est gay. ",
+    "effect": {
+        "femmes": 5,
+        "handicaps": 0,
+        "racises": 0,
+        "lgbt": 10,
+        "religions": 0,
+        "societe": 0
+    }
+},
+{
+    "question": "Je ne suis pas gay, j'aime la chatte et le pâté. ",
+    "effect": {
+        "femmes": 5,
+        "handicaps": 0,
+        "racises": 0,
+        "lgbt": -50,
+        "religions": 0,
+        "societe": 0
+    }
+},
+{
+    "question": "Je n'ai pas besoin de femme dans ma vie, un lave-vaisselle, Uber Eats et une vaginette suffisent. ",
+    "effect": {
+        "femmes": 10,
+        "handicaps": -20,
+        "racises": 0,
+        "lgbt": 10,
+        "religions": 0,
+        "societe": 5
+    }
+},
+{
+    "question": "L'humanité rencontre de sérieux problèmes tels que le chaos climatique et la montée du fascisme, mais aucun n'est aussi grave que le fait de souhaiter \"bonnes fêtes\" au lieu de \"joyeux noël\". ",
+    "effect": {
+        "femmes": 0,
+        "handicaps": 0,
+        "racises": 0,
+        "lgbt": 0,
+        "religions": 0,
+        "societe": 20
+    }
+},
+{
+    "question": "Les personnes noires devraient porter un gilet jaune la nuit pour être plus visible par les automobilistes. ",
+    "effect": {
+        "femmes": 0,
+        "handicaps": 0,
+        "racises": 20,
+        "lgbt": 0,
+        "religions": 0,
+        "societe": 5
+    }
+},
+{
+    "question": "Il n'y a rien de raciste à faire une blackface. ",
+    "effect": {
+        "femmes": 0,
+        "handicaps": 0,
+        "racises": 10,
+        "lgbt": 0,
+        "religions": 0,
+        "societe": 0
+    }
+},
+{
+    "question": "Je préfère une femme noire à un gay arabe. ",
+    "effect": {
+        "femmes": 5,
+        "handicaps": 0,
+        "racises": -10,
+        "lgbt": 5,
+        "religions": 0,
+        "societe": 0
+    }
+},
+{
+    "question": "Il faut interdire le LFI. ",
+    "effect": {
+        "femmes": 10,
+        "handicaps": 20,
+        "racises": -10,
+        "lgbt": 10,
+        "religions": -10,
+        "societe": 20
+    }
+},
+{
+    "question": "J'en ai assez de toute cette racaille, il faut la passer au karsher. ",
+    "effect": {
+        "femmes": 0,
+        "handicaps": 0,
+        "racises": -10,
+        "lgbt": 0,
+        "religions": 0,
+        "societe": 20
+    }
+},
+{
+    "question": "Il est tout à fait normal qu'un homme blanc détienne tous les pouvoirs et enlève leurs droits aux femmes et à un homosexueL. ",
+    "effect": {
+        "femmes": -50,
+        "handicaps": 0,
+        "racises": 0,
+        "lgbt": 30,
+        "religions": 0,
+        "societe": 30
+    }
+},
+{
+    "question": "Le complot du 11 septembre a été orchestré par les juifs pour détruire les tours jumelles. ",
+    "effect": {
+        "femmes": 0,
+        "handicaps": 0,
+        "racises": 0,
+        "lgbt": 0,
+        "religions": 20,
+        "societe": 0
+    }
+},
+{
+    "question": "Les musulmans sont tous des terroristes. ",
+    "effect": {
+        "femmes": 0,
+        "handicaps": 0,
+        "racises": -20,
+        "lgbt": 0,
+        "religions": 20,
+        "societe": 0
+    }
+},
+{
+    "question": "Je peux pas être antisémite, j'aime Israël et son combat pour la civilisation occidentale. ",
+    "effect": {
+        "femmes": 0,
+        "handicaps": 0,
+        "racises": -20,
+        "lgbt": 0,
+        "religions": -20,
+        "societe": 20
+    }
+},
+{
+    "question": "Je refuse de laisser ma femme porter seule la charge domestique (je lui crie dessus pour qu'elle avance plus vite, ça l'aide beaucoup). ",
+    "effect": {
+        "femmes": -20,
+        "handicaps": 0,
+        "racises": 0,
+        "lgbt": 0,
+        "religions": 0,
+        "societe": 0
+    }
+},
+{
+    "question": "Le wokisme est un régime totalitaire qui veut faire la guerre à la culture occidentale. ",
+    "effect": {
+        "femmes": 0,
+        "handicaps": 0,
+        "racises": 0,
+        "lgbt": 0,
+        "religions": 0,
+        "societe": -60
+    }
+},
+{
+    "question": "Mon hobby principal est de mettre du jambon au rayon halal. Je suis en quelques sortes le Jean Moulin du XXIe siècle. ",
+    "effect": {
+        "femmes": 0,
+        "handicaps": 0,
+        "racises": 0,
+        "lgbt": 0,
+        "religions": -10,
+        "societe": 0
+    }
+},
+{
+    "question": "L'emprisonnement de Monsieur le Président Nicolas Sarkozy est un plus grand scandale que l'affaire Dreyfus. ",
+    "effect": {
+        "femmes": 0,
+        "handicaps": 0,
+        "racises": 0,
+        "lgbt": 0,
+        "religions": 0,
+        "societe": 10
+    }
+},
+{
+    "question": "On apprend à nos enfants la sodomie et la masturbation à l'école entre deux séances de changement de sexe. ",
+    "effect": {
+        "femmes": 0,
+        "handicaps": 0,
+        "racises": 0,
+        "lgbt": 10,
+        "religions": 0,
+        "societe": -10
+    }
+},
+{
+    "question": "Je pense que les juifs sont plus avares que ce que les arabes sont voleurs. ",
+    "effect": {
+        "femmes": 0,
+        "handicaps": 0,
+        "racises": 5,
+        "lgbt": 0,
+        "religions": 20,
+        "societe": 0
+    }
+},
+{
+    "question": "Les hommes gays devraient être mariés de force à des femmes, il n'y a pas de raison qu'ils aient la possibilité d'être exemptés. ",
+    "effect": {
+        "femmes": 20,
+        "handicaps": 0,
+        "racises": 0,
+        "lgbt": 20,
+        "religions": 0,
+        "societe": -10
+    }
+},
 ];

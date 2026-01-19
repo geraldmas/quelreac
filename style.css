@@ -265,6 +265,66 @@ div.tradition {
     text-align: left;
     border-right-style: solid;
 }
+div.antifeminisme {
+    background-color: #f44336;
+    text-align: left;
+    border-right-style: solid;
+}
+div.misogyne {
+    background-color: #00897b;
+    text-align: right;
+    border-left-style: solid;
+}
+div.transhumanisme {
+    background-color: #03a9f4;
+    text-align: left;
+    border-right-style: solid;
+}
+div.validisme {
+    background-color: #ff9800;
+    text-align: right;
+    border-left-style: solid;
+}
+div.gay {
+    background-color: #9c27b0;
+    text-align: left;
+    border-right-style: solid;
+}
+div.homophobe {
+    background-color: #3f51b5;
+    text-align: right;
+    border-left-style: solid;
+}
+div.antiarabe {
+    background-color: #8bc34a;
+    text-align: left;
+    border-right-style: solid;
+}
+div.antinoirs {
+    background-color: #ffeb3b;
+    text-align: right;
+    border-left-style: solid;
+}
+div.islamophobe {
+    background-color: #f44336;
+    text-align: left;
+    border-right-style: solid;
+}
+div.antisemite {
+    background-color: #00897b;
+    text-align: right;
+    border-left-style: solid;
+}
+div.antiwokisme {
+    background-color: #03a9f4;
+    text-align: left;
+    border-right-style: solid;
+}
+div.fascisme {
+    background-color: #ff9800;
+    text-align: right;
+    border-left-style: solid;
+}
 span.weight-300 {
     font-weight: 300;
 }

@@ -2,469 +2,553 @@ ideologies = [
     {
         "name": "Anarcho-Communism",
         "stats": {
-            "econ": 100,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 90
+            "femmes": 100,
+            "handicaps": 50,
+            "racises": 100,
+            "lgbt": 90,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "Libertarian Communism",
         "stats": {
-            "econ": 100,
-            "dipl": 70,
-            "govt": 80,
-            "scty": 80
+            "femmes": 100,
+            "handicaps": 70,
+            "racises": 80,
+            "lgbt": 80,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "Trotskyism",
         "stats": {
-            "econ": 100,
-            "dipl": 100,
-            "govt": 60,
-            "scty": 80
+            "femmes": 100,
+            "handicaps": 100,
+            "racises": 60,
+            "lgbt": 80,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "Marxism",
         "stats": {
-            "econ": 100,
-            "dipl": 70,
-            "govt": 40,
-            "scty": 80
+            "femmes": 100,
+            "handicaps": 70,
+            "racises": 40,
+            "lgbt": 80,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "De Leonism",
         "stats": {
-            "econ": 100,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 80
+            "femmes": 100,
+            "handicaps": 30,
+            "racises": 30,
+            "lgbt": 80,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "Leninism",
         "stats": {
-            "econ": 100,
-            "dipl": 40,
-            "govt": 20,
-            "scty": 70
+            "femmes": 100,
+            "handicaps": 40,
+            "racises": 20,
+            "lgbt": 70,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "Stalinism/Maoism",
         "stats": {
-            "econ": 100,
-            "dipl": 20,
-            "govt": 0,
-            "scty": 60
+            "femmes": 100,
+            "handicaps": 20,
+            "racises": 0,
+            "lgbt": 60,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "Religious Communism",
         "stats": {
-            "econ": 100,
-            "dipl": 50,
-            "govt": 30,
-            "scty": 30
+            "femmes": 100,
+            "handicaps": 50,
+            "racises": 30,
+            "lgbt": 30,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "State Socialism",
         "stats": {
-            "econ": 80,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 70
+            "femmes": 80,
+            "handicaps": 30,
+            "racises": 30,
+            "lgbt": 70,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "Theocratic Socialism",
         "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 30,
-            "scty": 20
+            "femmes": 80,
+            "handicaps": 50,
+            "racises": 30,
+            "lgbt": 20,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "Religious Socialism",
         "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 70,
-            "scty": 20
+            "femmes": 80,
+            "handicaps": 50,
+            "racises": 70,
+            "lgbt": 20,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "Democratic Socialism",
         "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 50,
-            "scty": 80
+            "femmes": 80,
+            "handicaps": 50,
+            "racises": 50,
+            "lgbt": 80,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "Revolutionary Socialism",
         "stats": {
-            "econ": 80,
-            "dipl": 20,
-            "govt": 50,
-            "scty": 70
+            "femmes": 80,
+            "handicaps": 20,
+            "racises": 50,
+            "lgbt": 70,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "Libertarian Socialism",
         "stats": {
-            "econ": 80,
-            "dipl": 80,
-            "govt": 80,
-            "scty": 80
+            "femmes": 80,
+            "handicaps": 80,
+            "racises": 80,
+            "lgbt": 80,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "Anarcho-Syndicalism",
         "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 80
+            "femmes": 80,
+            "handicaps": 50,
+            "racises": 100,
+            "lgbt": 80,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "Left-Wing Populism",
         "stats": {
-            "econ": 60,
-            "dipl": 40,
-            "govt": 30,
-            "scty": 70
+            "femmes": 60,
+            "handicaps": 40,
+            "racises": 30,
+            "lgbt": 70,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "Theocratic Distributism",
         "stats": {
-            "econ": 60,
-            "dipl": 40,
-            "govt": 30,
-            "scty": 20
+            "femmes": 60,
+            "handicaps": 40,
+            "racises": 30,
+            "lgbt": 20,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "Distributism",
         "stats": {
-            "econ": 60,
-            "dipl": 50,
-            "govt": 50,
-            "scty": 20
+            "femmes": 60,
+            "handicaps": 50,
+            "racises": 50,
+            "lgbt": 20,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "Social Liberalism",
         "stats": {
-            "econ": 60,
-            "dipl": 60,
-            "govt": 60,
-            "scty": 80
+            "femmes": 60,
+            "handicaps": 60,
+            "racises": 60,
+            "lgbt": 80,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "Christian Democracy",
         "stats": {
-            "econ": 60,
-            "dipl": 60,
-            "govt": 50,
-            "scty": 30
+            "femmes": 60,
+            "handicaps": 60,
+            "racises": 50,
+            "lgbt": 30,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "Social Democracy",
         "stats": {
-            "econ": 60,
-            "dipl": 70,
-            "govt": 60,
-            "scty": 80
+            "femmes": 60,
+            "handicaps": 70,
+            "racises": 60,
+            "lgbt": 80,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "Progressivism",
         "stats": {
-            "econ": 60,
-            "dipl": 80,
-            "govt": 60,
-            "scty": 100
+            "femmes": 60,
+            "handicaps": 80,
+            "racises": 60,
+            "lgbt": 100
         }
     },
     {
         "name": "Anarcho-Mutualism",
         "stats": {
-            "econ": 60,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 70
+            "femmes": 60,
+            "handicaps": 50,
+            "racises": 100,
+            "lgbt": 70,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "National Totalitarianism",
         "stats": {
-            "econ": 50,
-            "dipl": 20,
-            "govt": 0,
-            "scty": 50
+            "femmes": 50,
+            "handicaps": 20,
+            "racises": 0,
+            "lgbt": 50
         }
     },
     {
         "name": "Global Totalitarianism",
         "stats": {
-            "econ": 50,
-            "dipl": 80,
-            "govt": 0,
-            "scty": 50
+            "femmes": 50,
+            "handicaps": 80,
+            "racises": 0,
+            "lgbt": 50
         }
     },
     {
         "name": "Technocracy",
         "stats": {
-            "econ": 60,
-            "dipl": 60,
-            "govt": 20,
-            "scty": 70
+            "femmes": 60,
+            "handicaps": 60,
+            "racises": 20,
+            "lgbt": 70,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "Centrist",
         "stats": {
-            "econ": 50,
-            "dipl": 50,
-            "govt": 50,
-            "scty": 50
+            "femmes": 50,
+            "handicaps": 50,
+            "racises": 50,
+            "lgbt": 50
         }
     },
     {
         "name": "Liberalism",
         "stats": {
-            "econ": 50,
-            "dipl": 60,
-            "govt": 60,
-            "scty": 60
+            "femmes": 50,
+            "handicaps": 60,
+            "racises": 60,
+            "lgbt": 60,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "Religious Anarchism",
         "stats": {
-            "econ": 50,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 20
+            "femmes": 50,
+            "handicaps": 50,
+            "racises": 100,
+            "lgbt": 20,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "Right-Wing Populism",
         "stats": {
-            "econ": 40,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 30
+            "femmes": 40,
+            "handicaps": 30,
+            "racises": 30,
+            "lgbt": 30,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "Moderate Conservatism",
         "stats": {
-            "econ": 40,
-            "dipl": 40,
-            "govt": 50,
-            "scty": 30
+            "femmes": 40,
+            "handicaps": 40,
+            "racises": 50,
+            "lgbt": 30,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "Reactionary",
         "stats": {
-            "econ": 40,
-            "dipl": 40,
-            "govt": 40,
-            "scty": 10
+            "femmes": 40,
+            "handicaps": 40,
+            "racises": 40,
+            "lgbt": 10,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "Social Libertarianism",
         "stats": {
-            "econ": 60,
-            "dipl": 70,
-            "govt": 80,
-            "scty": 70
+            "femmes": 60,
+            "handicaps": 70,
+            "racises": 80,
+            "lgbt": 70,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "Libertarianism",
         "stats": {
-            "econ": 40,
-            "dipl": 60,
-            "govt": 80,
-            "scty": 60
+            "femmes": 40,
+            "handicaps": 60,
+            "racises": 80,
+            "lgbt": 60,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "Anarcho-Egoism",
         "stats": {
-            "econ": 40,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 50
+            "femmes": 40,
+            "handicaps": 50,
+            "racises": 100,
+            "lgbt": 50
         }
     },
     {
         "name": "Nazism",
         "stats": {
-            "econ": 40,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 5
+            "femmes": 40,
+            "handicaps": 0,
+            "racises": 0,
+            "lgbt": 5,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "Autocracy",
         "stats": {
-            "econ": 50,
-            "dipl": 20,
-            "govt": 20,
-            "scty": 50
+            "femmes": 50,
+            "handicaps": 20,
+            "racises": 20,
+            "lgbt": 50
         }
     },
     {
         "name": "Fascism",
         "stats": {
-            "econ": 40,
-            "dipl": 20,
-            "govt": 20,
-            "scty": 20
+            "femmes": 40,
+            "handicaps": 20,
+            "racises": 20,
+            "lgbt": 20,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "Capitalist Fascism",
         "stats": {
-            "econ": 20,
-            "dipl": 20,
-            "govt": 20,
-            "scty": 20
+            "femmes": 20,
+            "handicaps": 20,
+            "racises": 20,
+            "lgbt": 20,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "Conservatism",
         "stats": {
-            "econ": 30,
-            "dipl": 40,
-            "govt": 40,
-            "scty": 20
+            "femmes": 30,
+            "handicaps": 40,
+            "racises": 40,
+            "lgbt": 20,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "Neo-Liberalism",
         "stats": {
-            "econ": 30,
-            "dipl": 30,
-            "govt": 50,
-            "scty": 60
+            "femmes": 30,
+            "handicaps": 30,
+            "racises": 50,
+            "lgbt": 60,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "Classical Liberalism",
         "stats": {
-            "econ": 30,
-            "dipl": 60,
-            "govt": 60,
-            "scty": 80
+            "femmes": 30,
+            "handicaps": 60,
+            "racises": 60,
+            "lgbt": 80,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "Authoritarian Capitalism",
         "stats": {
-            "econ": 20,
-            "dipl": 30,
-            "govt": 20,
-            "scty": 40
+            "femmes": 20,
+            "handicaps": 30,
+            "racises": 20,
+            "lgbt": 40,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "State Capitalism",
         "stats": {
-            "econ": 20,
-            "dipl": 50,
-            "govt": 30,
-            "scty": 50
+            "femmes": 20,
+            "handicaps": 50,
+            "racises": 30,
+            "lgbt": 50
         }
     },
     {
         "name": "Neo-Conservatism",
         "stats": {
-            "econ": 20,
-            "dipl": 20,
-            "govt": 40,
-            "scty": 20
+            "femmes": 20,
+            "handicaps": 20,
+            "racises": 40,
+            "lgbt": 20,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "Fundamentalism",
         "stats": {
-            "econ": 20,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 5
+            "femmes": 20,
+            "handicaps": 30,
+            "racises": 30,
+            "lgbt": 5,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "Libertarian Capitalism",
         "stats": {
-            "econ": 20,
-            "dipl": 50,
-            "govt": 80,
-            "scty": 60
+            "femmes": 20,
+            "handicaps": 50,
+            "racises": 80,
+            "lgbt": 60,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "Market Anarchism",
         "stats": {
-            "econ": 20,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 50
+            "femmes": 20,
+            "handicaps": 50,
+            "racises": 100,
+            "lgbt": 50
         }
     },
     {
         "name": "Objectivism",
         "stats": {
-            "econ": 10,
-            "dipl": 50,
-            "govt": 90,
-            "scty": 40
+            "femmes": 10,
+            "handicaps": 50,
+            "racises": 90,
+            "lgbt": 40,
+            "religions": 0,
+            "societe": 0
         }
     },
     {
         "name": "Totalitarian Capitalism",
         "stats": {
-            "econ": 0,
-            "dipl": 30,
-            "govt": 0,
-            "scty": 50
+            "femmes": 0,
+            "handicaps": 30,
+            "racises": 0,
+            "lgbt": 50
         }
     },
     {
         "name": "Ultra-Capitalism",
         "stats": {
-            "econ": 0,
-            "dipl": 40,
-            "govt": 50,
-            "scty": 50
+            "femmes": 0,
+            "handicaps": 40,
+            "racises": 50,
+            "lgbt": 50
         }
     },
     {
         "name": "Anarcho-Capitalism",
         "stats": {
-            "econ": 0,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 50
+            "femmes": 0,
+            "handicaps": 50,
+            "racises": 100,
+            "lgbt": 50,
+            "religions": 0,
+            "societe": 0
         }
     }
 ];

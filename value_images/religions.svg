@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<rect x="0" y="0" width="512" height="512" rx="64" fill="#1f1f1f"/>
+<rect x="24" y="24" width="464" height="336" rx="48" fill="#2ECC71"/>
+<rect x="0" y="360" width="512" height="152" fill="#1f1f1f"/>
+<text x="256.0" y="465" text-anchor="middle"
+        font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="68"
+        fill="#f2f2f2" letter-spacing="1">RELIGIONS</text>
+<g transform="translate(0,0)"><path d="M 300 140 A 90 90 0 1 0 300 320" fill="none" stroke="#111" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 330 165 A 65 65 0 1 1 330 295" fill="none" stroke="#111" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 175 160 L 235 265 L 115 265 Z" fill="none" stroke="#111" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 175 320 L 235 215 L 115 215 Z" fill="none" stroke="#111" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>

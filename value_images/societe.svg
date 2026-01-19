@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<rect x="0" y="0" width="512" height="512" rx="64" fill="#1f1f1f"/>
+<rect x="24" y="24" width="464" height="336" rx="48" fill="#E74C3C"/>
+<rect x="0" y="360" width="512" height="152" fill="#1f1f1f"/>
+<text x="256.0" y="465" text-anchor="middle"
+        font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="68"
+        fill="#f2f2f2" letter-spacing="1">SOCIETE</text>
+<g transform="translate(0,0)"><path d="M 150 210 L 300 160 L 300 300 L 150 250 Z" fill="none" stroke="#111" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 170 260 L 200 340" fill="none" stroke="#111" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 205 330 L 170 340" fill="none" stroke="#111" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 320 190 C 365 210, 365 250, 320 270" fill="none" stroke="#111" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 345 160 C 415 205, 415 255, 345 300" fill="none" stroke="#111" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="256" y1="110" x2="256" y2="120" fill="none" stroke="#111" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>

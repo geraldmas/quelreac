@@ -1,7 +1,7 @@
 <head>
 <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
 <link href='style.css' rel='stylesheet' type='text/css'>
-<title>8values Quiz</title>
+<title>Quel réac es-tu ? - Quiz</title>
 <link rel="icon" type="x-icon" href="icon.png">
 <link rel="shortcut icon" type="x-icon" href="icon.png">
 <meta charset="utf-8">
@@ -17,17 +17,17 @@
 <script type="application/javascript"
         src="questions.js">
 </script>
-<h1>8values</h1>
+<h1>Quel réac es-tu ?</h1>
 <hr>
-<h2 style="text-align:center;" id="question-number">Loading...</h2>
+<h2 style="text-align:center;" id="question-number">Chargement...</h2>
 <p class="question" id="question-text"></p>
-<button class="button stronglyAgree" onclick="next_question( 1.0)">Strongly Agree</button> <br>
-<button class="button agree" onclick="next_question( 0.5)">Agree</button> <br>
-<button class="button neutral" onclick="next_question( 0.0)">Neutral/Unsure</button> <br>
-<button class="button disagree" onclick="next_question(-0.5)">Disagree</button> <br>
-<button class="button stronglyDisagree" onclick="next_question(-1.0)">Strongly Disagree</button> <br>
-<button class="small_button" onclick="prev_question()" id="back_button">Back</button>
-<button class="small_button_off" id="back_button_off">Back</button><br>
+<button class="button stronglyAgree" onclick="next_question( 1.0)">Tout à fait d'accord</button> <br>
+<button class="button agree" onclick="next_question( 0.5)">D'accord</button> <br>
+<button class="button neutral" onclick="next_question( 0.0)">Neutre/Incertain</button> <br>
+<button class="button disagree" onclick="next_question(-0.5)">Pas d'accord</button> <br>
+<button class="button stronglyDisagree" onclick="next_question(-1.0)">Pas du tout d'accord</button> <br>
+<button class="small_button" onclick="prev_question()" id="back_button">Retour</button>
+<button class="small_button_off" id="back_button_off">Retour</button><br>
 
 <!-- Website visit statistics - no personal information is collected! -->
 <script type="text/javascript">
@@ -48,23 +48,40 @@ stats"></a></div></noscript>
 
 <!-- JavaScript for the test itself -->
 <script>
-    var max_econ, max_dipl, max_govt, max_scty; // Max possible scores
-    max_econ = max_dipl = max_govt = max_scty = 0;
-    let econ_array = new Array(questions.length);
-    let dipl_array = new Array(questions.length);
-    let govt_array = new Array(questions.length);
-    let scty_array = new Array(questions.length);
+    // Fonction pour mélanger aléatoirement un tableau (algorithme Fisher-Yates)
+    function shuffleArray(array) {
+        let shuffled = array.slice(); // Créer une copie du tableau
+        for (let i = shuffled.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+        }
+        return shuffled;
+    }
+    
+    // Mélanger les questions aléatoirement
+    questions = shuffleArray(questions);
+    
+    var max_femmes, max_handicaps, max_lgbt, max_racises, max_religions, max_societe; // Max possible scores
+    max_femmes = max_handicaps = max_lgbt = max_racises = max_religions = max_societe = 0;
+    let femmes_array = new Array(questions.length);
+    let handicaps_array = new Array(questions.length);
+    let lgbt_array = new Array(questions.length);
+    let racisés_array = new Array(questions.length);
+    let religions_array = new Array(questions.length);
+    let societe_array = new Array(questions.length);
     var qn = 0; // Question number
     init_question();
     for (var i = 0; i < questions.length; i++) {
-        max_econ += Math.abs(questions[i].effect.econ)
-        max_dipl += Math.abs(questions[i].effect.dipl)
-        max_govt += Math.abs(questions[i].effect.govt)
-        max_scty += Math.abs(questions[i].effect.scty)
+        max_femmes += Math.abs(questions[i].effect.femmes)
+        max_handicaps += Math.abs(questions[i].effect.handicaps)
+        max_lgbt += Math.abs(questions[i].effect.lgbt)
+        max_racises += Math.abs(questions[i].effect.racises)
+        max_religions += Math.abs(questions[i].effect.religions)
+        max_societe += Math.abs(questions[i].effect.societe)
     }
     function init_question() {
         document.getElementById("question-text").innerHTML = questions[qn].question;
-        document.getElementById("question-number").innerHTML = "Question " + (qn + 1) + " of " + (questions.length);
+        document.getElementById("question-number").innerHTML = "Question " + (qn + 1) + " sur " + (questions.length);
         if (qn == 0) {
             document.getElementById("back_button").style.display = 'none';
             document.getElementById("back_button_off").style.display = 'block';
@@ -76,10 +93,12 @@ stats"></a></div></noscript>
     }
 
     function next_question(mult) {
-        econ_array[qn] = mult*questions[qn].effect.econ
-        dipl_array[qn] = mult*questions[qn].effect.dipl
-        govt_array[qn] = mult*questions[qn].effect.govt
-        scty_array[qn] = mult*questions[qn].effect.scty
+        femmes_array[qn] = mult*questions[qn].effect.femmes
+        handicaps_array[qn] = mult*questions[qn].effect.handicaps
+        lgbt_array[qn] = mult*questions[qn].effect.lgbt
+        racisés_array[qn] = mult*questions[qn].effect.racises
+        religions_array[qn] = mult*questions[qn].effect.religions
+        societe_array[qn] = mult*questions[qn].effect.societe
         qn++;
         if (qn < questions.length) {
             init_question();
@@ -101,15 +120,19 @@ stats"></a></div></noscript>
     }
 
     function results() {
-        let final_econ = econ_array.reduce((a, b) => a + b, 0)
-        let final_dipl = dipl_array.reduce((a, b) => a + b, 0)
-        let final_govt = govt_array.reduce((a, b) => a + b, 0)
-        let final_scty = scty_array.reduce((a, b) => a + b, 0)
+        let final_femmes = femmes_array.reduce((a, b) => a + b, 0)
+        let final_handicaps = handicaps_array.reduce((a, b) => a + b, 0)
+        let final_lgbt = lgbt_array.reduce((a, b) => a + b, 0)
+        let final_racises = racisés_array.reduce((a, b) => a + b, 0)
+        let final_religions = religions_array.reduce((a, b) => a + b, 0)
+        let final_societe = societe_array.reduce((a, b) => a + b, 0)
         location.href = `results.html`
-            + `?e=${calc_score(final_econ,max_econ)}`
-            + `&d=${calc_score(final_dipl,max_dipl)}`
-            + `&g=${calc_score(final_govt,max_govt)}`
-            + `&s=${calc_score(final_scty,max_scty)}`
+            + `?f=${calc_score(final_femmes,max_femmes)}`
+            + `&h=${calc_score(final_handicaps,max_handicaps)}`
+            + `&l=${calc_score(final_lgbt,max_lgbt)}`
+            + `&r=${calc_score(final_racises,max_racises)}`
+            + `&re=${calc_score(final_religions,max_religions)}`
+            + `&s=${calc_score(final_societe,max_societe)}`
     }
 </script>
 </body>
