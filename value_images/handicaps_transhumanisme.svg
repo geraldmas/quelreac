@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<rect x="0" y="0" width="512" height="512" rx="64" fill="#1f1f1f"/>
+<rect x="24" y="24" width="464" height="336" rx="48" fill="#2DB7B0"/>
+<rect x="0" y="360" width="512" height="152" fill="#1f1f1f"/>
+<text x="256.0" y="465" text-anchor="middle" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="56" fill="#f2f2f2" letter-spacing="1">TRANSHUMANISME</text>
+<g><path d="M 210 270 C 170 270, 160 210, 175 175 C 190 145, 220 120, 256 120 C 312 120, 352 165, 352 225 C 352 270, 320 295, 300 305 L 300 320 L 225 320 L 225 300" fill="none" stroke="#111" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/><rect x="295" y="160" width="70" height="70" rx="12" fill="none" stroke="#111" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/><line x1="295" y1="195" x2="260" y2="195" fill="none" stroke="#111" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/><line x1="330" y1="230" x2="330" y2="270" fill="none" stroke="#111" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/><circle cx="260" cy="195" r="8" fill="#111"/><circle cx="330" cy="270" r="8" fill="#111"/></g>
+</svg>

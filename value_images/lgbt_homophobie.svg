@@ -2,10 +2,11 @@
 <rect x="0" y="0" width="512" height="512" rx="64" fill="#1f1f1f"/>
 <rect x="24" y="24" width="464" height="336" rx="48" fill="#9B59FF"/>
 <rect x="0" y="360" width="512" height="152" fill="#1f1f1f"/>
-<text x="256.0" y="465" text-anchor="middle"
-        font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="68"
-        fill="#f2f2f2" letter-spacing="1">LGBT</text>
-<g transform="translate(0,0)"><line x1="185" y1="110" x2="185" y2="330" fill="none" stroke="#111" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+<g><line x1="185" y1="110" x2="185" y2="330" fill="none" stroke="#111" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M 185 125 C 240 105, 270 140, 320 120 C 350 110, 360 125, 390 115 L 390 250 C 340 265, 320 235, 270 255 C 235 270, 215 255, 185 265 Z" fill="none" stroke="#111" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="185" cy="125" r="10" fill="#111"/></g>
+<line x1="145" y1="125" x2="405" y2="305" fill="none" stroke="#111" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="256.0" y="425" text-anchor="middle" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="52" fill="#f2f2f2">
+<tspan x="256.0" y="425">homophobie</tspan>
+<tspan x="256.0" y="485">(gay)</tspan>
+</text>
 </svg>

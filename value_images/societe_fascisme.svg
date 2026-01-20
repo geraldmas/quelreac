@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<rect x="0" y="0" width="512" height="512" rx="64" fill="#1f1f1f"/>
+<rect x="24" y="24" width="464" height="336" rx="48" fill="#E74C3C"/>
+<rect x="0" y="360" width="512" height="152" fill="#1f1f1f"/>
+<text x="256.0" y="465" text-anchor="middle" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="72" fill="#f2f2f2" letter-spacing="1">FASCISME</text>
+<g><rect x="285" y="135" width="120" height="70" rx="12" fill="none" stroke="#111" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/><rect x="250" y="165" width="70" height="120" rx="12" fill="none" stroke="#111" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/><line x1="260" y1="285" x2="200" y2="345" fill="none" stroke="#111" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/><rect x="140" y="340" width="220" height="40" rx="12" fill="none" stroke="#111" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>

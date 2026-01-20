@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<rect x="0" y="0" width="512" height="512" rx="64" fill="#1f1f1f"/>
+<rect x="24" y="24" width="464" height="336" rx="48" fill="#2ECC71"/>
+<rect x="0" y="360" width="512" height="152" fill="#1f1f1f"/>
+<text x="256.0" y="465" text-anchor="middle" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="56" fill="#f2f2f2" letter-spacing="1">ANTISEMITISME</text>
+<g><path d="M 150 170 C 190 150, 230 150, 256 175 C 282 150, 322 150, 362 170 V 320 C 322 300, 282 300, 256 325 C 230 300, 190 300, 150 320 Z" fill="none" stroke="#111" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/><line x1="256" y1="175" x2="256" y2="325" fill="none" stroke="#111" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/><text x="200" y="260" text-anchor="middle" font-family="DejaVu Sans, Arial" font-size="52" fill="#111">JU</text><text x="312" y="260" text-anchor="middle" font-family="DejaVu Sans, Arial" font-size="52" fill="#111">JU</text><line x1="160" y1="150" x2="360" y2="330" fill="none" stroke="#111" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>

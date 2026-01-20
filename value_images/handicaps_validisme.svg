@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<rect x="0" y="0" width="512" height="512" rx="64" fill="#1f1f1f"/>
+<rect x="24" y="24" width="464" height="336" rx="48" fill="#2DB7B0"/>
+<rect x="0" y="360" width="512" height="152" fill="#1f1f1f"/>
+<text x="256.0" y="465" text-anchor="middle" font-family="DejaVu Sans, Arial, Helvetica, sans-serif" font-size="62" fill="#f2f2f2" letter-spacing="1">VALIDISME</text>
+<g><path d="M 150 320 L 150 280 L 190 280 L 190 240 L 230 240 L 230 200 L 270 200 L 270 160 L 330 160" fill="none" stroke="#111" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/><line x1="150" y1="320" x2="350" y2="320" fill="none" stroke="#111" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/><line x1="160" y1="140" x2="360" y2="340" fill="none" stroke="#111" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>
