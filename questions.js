@@ -1,16 +1,5 @@
 questions = [
     {
-        "question": "Je condamne la phrase \"c\'est même pas beau ce genre de final, à aucun moment c\'est normal de faire le dawa comme ça\" prononcée par Claire parlant des Sénégalais. ",
-        "effect": {
-            "femmes": -5,
-            "handicaps": 0,
-            "racises": 20,
-            "lgbt": 0,
-            "religions": 0,
-            "societe": 0
-        }
-    },
-    {
         "question": "Je condamne la phrase \"heureusement que le Maroc a pas gagné sinon les voitures auraient brûlé sur les champs Élysée et il y aurait la charia dans les rues\" prononcée mot pour mot par Doum. ",
         "effect": {
             "femmes": 10,
@@ -66,7 +55,7 @@ questions = [
         }
     },
     {
-        "question": "Jordan Bardella a un bon boule. ",
+        "question": "Jordan Bardella et Gabriel Attal formeraient un très beau couple. ",
         "effect": {
             "femmes": 0,
             "handicaps": 10,
@@ -86,18 +75,7 @@ questions = [
             "religions": 20,
             "societe": 5
         }
-    },
-    {
-        "question": "Il est légitime de censurer des messages qui ne me plaisent pas sur Discord. ",
-        "effect": {
-            "femmes": 0,
-            "handicaps": 0,
-            "racises": 0,
-            "lgbt": -100,
-            "religions": 0,
-            "societe": 100
-        }
-    },
+    }, 
     {
         "question": "Au moins, les asiatiques sont discrets. ",
         "effect": {
@@ -187,7 +165,7 @@ questions = [
         }
     },
     {
-        "question": "Je range mon téléphone immédiatement lorsque je vois une personne portant un keffieh. ",
+        "question": "Je range mon téléphone immédiatement lorsque je vois une personne à la peau pas assez claire. ",
         "effect": {
             "femmes": 0,
             "handicaps": 0,
@@ -273,18 +251,7 @@ questions = [
             "religions": 0,
             "societe": 10
         }
-    },
-    {
-        "question": "Quand Jean-Loup tire de la fierté de ne taper que les femmes et les homosexuels, il fait preuve d'une grande lucidité. ",
-        "effect": {
-            "femmes": -30,
-            "handicaps": 0,
-            "racises": 0,
-            "lgbt": 30,
-            "religions": 0,
-            "societe": 0
-        }
-    },
+    }, 
     {
         "question": "Israël a le droit de se défendre. ",
         "effect": {
@@ -473,7 +440,7 @@ questions = [
     }
 },
 {
-    "question": "Je ne suis pas gay, j'aime la chatte et le pâté. ",
+    "question": "Je ne suis pas gay, j'aime la chatte et le pâté. Je vous ai dit que j'aimais la chatte ? Je suis pas gay hein. Nohomo. ",
     "effect": {
         "femmes": 5,
         "handicaps": 0,
@@ -561,7 +528,7 @@ questions = [
     }
 },
 {
-    "question": "Il est tout à fait normal qu'un homme blanc détienne tous les pouvoirs et enlève leurs droits aux femmes et à un homosexueL. ",
+    "question": "Il est tout à fait normal qu'un homme blanc détienne tous les pouvoirs et enlève leurs droits aux femmes et à un homosexuel. ",
     "effect": {
         "femmes": -50,
         "handicaps": 0,
@@ -572,7 +539,7 @@ questions = [
     }
 },
 {
-    "question": "Le complot du 11 septembre a été orchestré par les juifs pour détruire les tours jumelles. ",
+    "question": "Le complot du 11 septembre a été orchestré par les juifs pour faire accuser les arabes. ",
     "effect": {
         "femmes": 0,
         "handicaps": 0,
@@ -679,6 +646,259 @@ questions = [
         "lgbt": 20,
         "religions": 0,
         "societe": -10
+    }
+},
+{
+    "question": "Je serais intéressé-e pour organiser un tournoi de streetfight de personnes à mobilité réduite. ",
+    "effect": {
+        "femmes": 0,
+        "handicaps": -20,
+        "racises": 0,
+        "lgbt": 0,
+        "religions": 0,
+        "societe": 0
+    }
+},
+{
+    "question": "Si je dois oublier de l'argent sur une table de terrasse, il vaut mieux que ce soit dans un quartier juif qu'un quartier arabe. ",
+    "effect": {
+        "femmes": 0,
+        "handicaps": 0,
+        "racises": -20,
+        "lgbt": 0,
+        "religions": -20,
+        "societe": 0
+    }
+},
+{
+    "question": "Je préfère coucher avec une femme transgenre qu'un homme noir. ",
+    "effect": {
+        "femmes": -10,
+        "handicaps": 0,
+        "racises": 10,
+        "lgbt": 20,
+        "religions": 0,
+        "societe": 0
+    }
+},
+{
+    "question": "Comme avec tous les animaux domestiques, il est important de dresser son homosexuel de compagnie pour le remettre sur le droit chemin. ",
+    "effect": {
+        "femmes": 0,
+        "handicaps": 0,
+        "racises": 0,
+        "lgbt": 10,
+        "religions": 0,
+        "societe": 0
+    }
+},
+{
+    "question": "Je préfère coucher avec Meyer Habib sans que personne ne le sache jamais au fait ne ne pas coucher avec Meyer Habib mais tout le monde pense que je l'ai fait. ",
+    "effect": {
+        "femmes": 0,
+        "handicaps": 0,
+        "racises": 5,
+        "lgbt": -5,
+        "religions": -10,
+        "societe": 0
+    }
+},
+{
+    "question": "On a besoin d'une bonne guerre pour relancer le pays. ",
+    "effect": {
+        "femmes": -10,
+        "handicaps": 10,
+        "racises": -10,
+        "lgbt": 10,
+        "religions": -10,
+        "societe": 40
+    }
+},
+{
+    "question": "Il est normal que les femmes puissent pratiquer le sport, afin de pouvoir astiquer les carreaux et nettoyer la vaisselle avec vigueur. ",
+    "effect": {
+        "femmes": -10,
+        "handicaps": 5,
+        "racises": 0,
+        "lgbt": 0,
+        "religions": 0,
+        "societe": 0
+    }
+},
+{
+    "question": "Le métissage est une très bonne chose (cela permet d'éliminer les races faibles plus rapidement en les diluant). ",
+    "effect": {
+        "femmes": 0,
+        "handicaps": 0,
+        "racises": 10,
+        "lgbt": 0,
+        "religions": 0,
+        "societe": 10
+    }
+},
+{
+    "question": "Bruno Lemaire a sauvé l'économie française. ",
+    "effect": {
+        "femmes": 0,
+        "handicaps": 0,
+        "racises": 0,
+        "lgbt": 0,
+        "religions": 0,
+        "societe": 0
+    }
+},
+{
+    "question": "Le lobby homosexuel organise des combats clandestins pour désigner qui sera actif et qui sera passif à chaque pleine lune. Si le rituel échoue, la personne devient trans.",
+    "effect": {
+        "femmes": 0,
+        "handicaps": 0,
+        "racises": 0,
+        "lgbt": 10,
+        "religions": 0,
+        "societe": -10
+    }
+},
+{
+    "question": "Je déteste les personnes trans, cela me perturbe trop d'être attiré par quelqu'un qui n'a pas le bon sexe. ",
+    "effect": {
+        "femmes": 0,
+        "handicaps": 0,
+        "racises": 0,
+        "lgbt": 10,
+        "religions": 0,
+        "societe": -10
+    }
+},
+{
+    "question": "Les hommes trans, en tant qu'anciennes femmes, diminuent le QI global des hommes. ",
+    "effect": {
+        "femmes": 10,
+        "handicaps": 0,
+        "racises": 0,
+        "lgbt": 0,
+        "religions": 0,
+        "societe": -10
+    }
+},
+{
+    "question": "Une femme trans ne sera jamais une vraie femme, car il lui manque les compétences naturelles d'une vraie bonne femme bien de chez nous (gestion domestique et hystérie).",
+    "effect": {
+        "femmes": -20,
+        "handicaps": 0,
+        "racises": 0,
+        "lgbt": 0,
+        "religions": 0,
+        "societe": -10
+    }
+},
+{
+    "question": "J'utilise toujours ma caméra infrarouge la nuit pour repérer les personnes noires pouvant se cacher dans l'obscurité. ",
+    "effect": {
+        "femmes": 0,
+        "handicaps": 0,
+        "racises": 20,
+        "lgbt": 0,
+        "religions": 0,
+        "societe": 0
+    }
+},
+{
+    "question": "Je soutiens Mila et m'endors en écoutant ses musiques inspirantes. Sus aux sarazins !",
+    "effect": {
+        "femmes": -10,
+        "handicaps": 0,
+        "racises": -20,
+        "lgbt": 5,
+        "religions": -20,
+        "societe": 20
+    }
+},
+{
+    "question": "Dire des vérités ne veut pas dire être raciste. ",
+    "effect": {
+        "femmes": 0,
+        "handicaps": 0,
+        "racises": 0,
+        "lgbt": 0,
+        "religions": 0,
+        "societe": 10
+    }
+},
+{
+    "question": "Les blancs sont la minorité la plus opprimée de l'Histoire. ",
+    "effect": {
+        "femmes": 0,
+        "handicaps": 0,
+        "racises": 20,
+        "lgbt": 0,
+        "religions": 0,
+        "societe": -10
+    }
+},
+{
+    "question": "On n'a plus le droit d'être hétérosexuel de nos jours. ",
+    "effect": {
+        "femmes": 0,
+        "handicaps": 0,
+        "racises": 0,
+        "lgbt": 20,
+        "religions": 0,
+        "societe": 0
+    }
+},
+{
+    "question": "J'aime mon riz comme mon quartier, bien blanc. ",
+    "effect": {
+        "femmes": 0,
+        "handicaps": 0,
+        "racises": 10,
+        "lgbt": 0,
+        "religions": 0,
+        "societe": 10
+    }
+},
+{
+    "question": "Contrairement aux juifs, les musulmans savent entretenir leur barbe. ",
+    "effect": {
+        "femmes": 0,
+        "handicaps": 0,
+        "racises": 0,
+        "lgbt": 0,
+        "religions": 20,
+        "societe": 0
+    }
+},
+{
+    "question": "Les écologistes sont des islamistes, puisqu'ils arborent le vert, couleur de l'islamisme et de la charia. ",
+    "effect": {
+        "femmes": 0,
+        "handicaps": 0,
+        "racises": -10,
+        "lgbt": 0,
+        "religions": -20,
+        "societe": -20
+    }
+},
+{
+    "question": "La charia est en place dans certains quartiers. ",
+    "effect": {
+        "femmes": 0,
+        "handicaps": 0,
+        "racises": -10,
+        "lgbt": 0,
+        "religions": -20,
+        "societe": 10
+    }
+},
+{
+    "question": "Jean-Luc Mélenchon est la plus grande menace pour ce pays depuis l'invasion des Alliés en 44.",
+    "effect": {
+        "femmes": 0,
+        "handicaps": 0,
+        "racises": 0,
+        "lgbt": 0,
+        "religions": 0,
+        "societe": 30
     }
 },
 ];
